@@ -29,7 +29,7 @@ class Calc_juros(tk.Frame):
 		self.text_taxa.place(x=10,y=165)
 
 
-		self.label_parcelas = tk.Label(self.master,fg="#121212",bg="#00afaf",text="NUEMRO DE PARCELAS",font=("sanserif",12, "italic"))
+		self.label_parcelas = tk.Label(self.master,fg="#121212",bg="#00afaf",text="NUMERO DE PARCELAS",font=("sanserif",12, "italic"))
 		self.label_parcelas.place(x = 10, y = 210)
 		self.text_parcelas = tk.Entry(self.master,width=10,bd=2,relief="flat",bg="#cccccc")
 		self.text_parcelas.place(x=10,y=245)
